@@ -1,0 +1,17 @@
+[package]
+name = "akai6502"
+version = "0.1.0"
+edition = "2024"
+description = "A cycle-accurate NMOS 6502 emulator"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/fikunmi-ap/akai6502"
+readme = "README.md"
+keywords = ["6502", "cpu", "emulator", "retrocomputing"]
+categories = ["emulators"]
+exclude = ["ARCHITECTURE.md", "TDL.md", "tests/as65"]
+
+[dependencies]
+
+[dev-dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
